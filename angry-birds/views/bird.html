@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{name}}</title>
+  <link rel='stylesheet' type='text/css' href='/styles.css'>
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+  <div id='modal' class="none">
+  <img class="center-bird" src={{image}} />
+  </div>
+
+  <div class="container">
+    <div class="navigation">
+      <a href='/angry-birds'><button class='bird-list'>Back to Birds List</button></a>
+      <a href='/'><button class='homepage'>Back to Homepage</button></a>
+    </div>
+    <div class="bird">
+      <img src={{image}} />
+      <div class="info">
+        <p>Name: {{name}}</p>
+        <p>Abilities: {{abilities}}</p>
+        <p>Group: {{group}}</p>
+      </div>
+    </div>
+  </div>
+
+  <script src='/script.js'></script>
+</body>
+</html>
